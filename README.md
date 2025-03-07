@@ -25,11 +25,12 @@ This project is a technical test for The Warehouse Senior Android Developer inte
 ## Screenshots
 
 ### Search Screen
-![Home Screen](https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221342.png)
+<img src="https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221342.png?raw=true" width="300" alt="Search Screen" />
 
 ### Search Results
-![Search Results](https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221406.png)
+<img src="https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221406.png?raw=true" width="300" alt="Search Results" />
 
 ### Product Detail
-![Product Detail](https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221421.png)
+<img src="https://github.com/ten-z/twgandroidtest/blob/main/Screenshot_20250307_221421.png?raw=true" width="300" alt="Product Detail" />
+
 

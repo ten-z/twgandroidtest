@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project is a technical test for The Warehouse Senior Android Developer interview, restructured from a Java version. The project is built using the latest Android Studio (Ladybug Feature Drop | 2024.2.2) and leverages technologies such as Kotlin, MVVM architecture, Kotlin Flow, Retrofit, and Jetpack DataStore. It implements functionality to search The Warehouse products and display product details. Additionally, it provides the necessary unit tests and instrumented tests.
+This project is a technical test for The Warehouse Senior Android Developer interview, refactored from a Java version. The project is built using the latest Android Studio (Ladybug Feature Drop | 2024.2.2) and utilizes technologies such as Kotlin, MVVM architecture, Kotlin Flow, Retrofit, and Jetpack DataStore. It implements functionality to search The Warehouse products and display product details. Additionally, it provides the necessary unit tests and instrumented tests.
 
 ## Features
 
 - **Product Search:**  
-  Users can search for The Warehouse products using keywords. The search results are displayed in a list. The refactored logic uses paging to handle large datasets: 20 items are loaded at a time and when the user scrolls to the bottom, the subsequent 20 items are fetched. Additionally, a debouncing mechanism prevents duplicate requests, and the pull-to-refresh feature has been removed as it did not match user expectations in most search scenarios.
+  Users can search for The Warehouse products using keywords, and the results are displayed in a list. The refactored logic continues to implement paging to manage large datasets, loading 20 items at a time and fetching the next set when the user reaches the bottom. A debouncing mechanism has also been introduced to prevent duplicate requests. Additionally, from my experience, the pull-to-refresh feature may not align with user expectations in most search scenarios, so it has been removed.
 - **Product Detail:**  
   Tapping on a product displays detailed information, including:
     - An image gallery showing multiple product images.
-    - Product name, price, barcode, description, product ID, and sold online status.
+    - Product name, price, description, product ID, and sold online status.
     - A clearance icon is shown when promotions are available.
 - **API**:
     - Uses API endpoints provided by The Warehouse.
